@@ -1,0 +1,110 @@
+timestamp,message
+1735618583854,"INIT_START Runtime Version: nodejs:22.v29	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:f494bf5385768c1a5f722eae90b6dd3d343c96ba7ec22b34f5c819e3e8511722
+"
+1735618584003,"START RequestId: 4fc1628b-ddb7-4d42-9f71-72df7d436c5d Version: $LATEST
+"
+1735618584013,"2024-12-31T04:16:24.013Z	4fc1628b-ddb7-4d42-9f71-72df7d436c5d	INFO	Received event: {
+  ""resource"": ""/pets"",
+  ""path"": ""/pets"",
+  ""httpMethod"": ""POST"",
+  ""headers"": {
+    ""Action-Request-Id"": ""fe21438c-d8be-40bd-9588-c1c475e5605f"",
+    ""Authorization"": ""Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImhvTXY5Q0NtcDloR0R2S1NnM0p0ZERhY1FiayIsInR5cCI6IkpXVCIsIng1dCI6ImhvTXY5Q0NtcDloR0R2S1NnM0p0ZERhY1FiayIsImlzc2xvYyI6IkNIMFBSMTZNQjQ0ODMiLCJzcWlkIjo2Mzg3MTIwNDU1MjUwNzQxOTl9.eyJ1dGkiOiI5ZjM4MGE3NC0wOThhLTQyNTAtOGQ1Ny0yYWI2OGZiMjQ1ZjQiLCJpYXQiOjE3MzU2MTgzNzMsInZlciI6IlNUSS5FeHRlcm5hbEFjY2Vzc1Rva2VuLlYxIiwiYXBwaWQiOiI0OGFmMDhkYy1mNmQyLTQzNWYtYjJhNy0wNjlhYmQ5OWMwODYiLCJzdWIiOiJpZy1ub3RpZnktbmRldkBjYXBncm91cC5jb20iLCJhcHBpZGFjciI6IjIiLCJhY3IiOiIwIiwidGlkIjoiNDFiOGMwNTYtMmRjMy00MzhkLTk5ZWUtNjFlMDAyODdhZGZlIiwic2VuZGVyIjoiaWctbm90aWZ5LW5kZXZAY2FwZ3JvdXAuY29tIiwib2lkIjoiMjRjOTk1NGQtNTFjNi00Y2FmLThhOWEtMDdiMTA2ZDhiMTRiIiwibmJmIjoxNzM1NjE4MzczLCJleHAiOjE3MzU2MTkyNzMsImlzcyI6Imh0dHBzOi8vc3Vic3RyYXRlLm9mZmljZS5jb20vc3RzLyIsImF1ZCI6Imh0dHBzOi8veDFwYjkxMDJkNS5leGVjdXRlLWFwaS51cy1lYXN0LTEuYW1hem9uYXdzLmNvbSJ9.c0FtpQg8yJh_hkj3lys8Io5BVqwQYmnSQPE1f9l6_Jsb4vqrQdPRgfymsPFLlzojVspHejHNCQitAxvI1fufp-_Vaj-H4X59gR8a4wUSbXuP61SmzaENI-wUQLahmFszaOKWILSSujaKwmzaH0Im1VDl7b_zTbY5LraDkttLLrFUd8Wt786KEMuphhIJUh9MBgBFmgri_MBhgmmtBRxMBXCR4kBzeLFv_itcJ2fJEkou5LgQIrcLtNIkKQP_ZvFPJLJKmS8UC-Dx4ru4FzP41aE34MaJCaKn4dG7bMsrfLWtLxDbnnNdSVz07BWF3zIPJ3DJ5bm6-9TDYgl-Cn01zA"",
+    ""Card-Correlation-Id"": ""95c28d03-47f2-4cec-8fe6-21b166c6e486"",
+    ""Content-Type"": ""application/json"",
+    ""Host"": ""x1pb9102d5.execute-api.us-east-1.amazonaws.com"",
+    ""Identity-Linking-Redirect-Url"": ""https://outlook.office.com/connectors/ig-notify-ndev@capgroup.com/eabc3324-c33c-4d0d-9a44-4bf5e5e65230/postAuthenticate"",
+    ""Message-Id"": ""AAMkAGY1OTZhMDEwLWU5MWItNDU4MC05ZGRlLTA3YWJiODgzZjUwZgBGAAAAAAB39Dn9_IIuSJ2N2J_vC1_DBwD1Uno6hUnuSa_z7GrcV6xDAAAAAAEMAAD1Uno6hUnuSa_z7GrcV6xDAADd9n_TAAA="",
+    ""traceparent"": ""00-33fb5c0d84c3845c541f818e6580b36c-3e94586b44f3b1c3-01"",
+    ""User-Agent"": ""WAC_Outlook_React 16.2024.1213.00210"",
+    ""X-Amzn-Trace-Id"": ""Root=1-67737017-6ea4218b2a1a2aa61ef9aa19"",
+    ""X-Forwarded-For"": ""52.96.196.93"",
+    ""X-Forwarded-Port"": ""443"",
+    ""X-Forwarded-Proto"": ""https""
+  },
+  ""multiValueHeaders"": {
+    ""Action-Request-Id"": [
+      ""fe21438c-d8be-40bd-9588-c1c475e5605f""
+    ],
+    ""Authorization"": [
+      ""Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImhvTXY5Q0NtcDloR0R2S1NnM0p0ZERhY1FiayIsInR5cCI6IkpXVCIsIng1dCI6ImhvTXY5Q0NtcDloR0R2S1NnM0p0ZERhY1FiayIsImlzc2xvYyI6IkNIMFBSMTZNQjQ0ODMiLCJzcWlkIjo2Mzg3MTIwNDU1MjUwNzQxOTl9.eyJ1dGkiOiI5ZjM4MGE3NC0wOThhLTQyNTAtOGQ1Ny0yYWI2OGZiMjQ1ZjQiLCJpYXQiOjE3MzU2MTgzNzMsInZlciI6IlNUSS5FeHRlcm5hbEFjY2Vzc1Rva2VuLlYxIiwiYXBwaWQiOiI0OGFmMDhkYy1mNmQyLTQzNWYtYjJhNy0wNjlhYmQ5OWMwODYiLCJzdWIiOiJpZy1ub3RpZnktbmRldkBjYXBncm91cC5jb20iLCJhcHBpZGFjciI6IjIiLCJhY3IiOiIwIiwidGlkIjoiNDFiOGMwNTYtMmRjMy00MzhkLTk5ZWUtNjFlMDAyODdhZGZlIiwic2VuZGVyIjoiaWctbm90aWZ5LW5kZXZAY2FwZ3JvdXAuY29tIiwib2lkIjoiMjRjOTk1NGQtNTFjNi00Y2FmLThhOWEtMDdiMTA2ZDhiMTRiIiwibmJmIjoxNzM1NjE4MzczLCJleHAiOjE3MzU2MTkyNzMsImlzcyI6Imh0dHBzOi8vc3Vic3RyYXRlLm9mZmljZS5jb20vc3RzLyIsImF1ZCI6Imh0dHBzOi8veDFwYjkxMDJkNS5leGVjdXRlLWFwaS51cy1lYXN0LTEuYW1hem9uYXdzLmNvbSJ9.c0FtpQg8yJh_hkj3lys8Io5BVqwQYmnSQPE1f9l6_Jsb4vqrQdPRgfymsPFLlzojVspHejHNCQitAxvI1fufp-_Vaj-H4X59gR8a4wUSbXuP61SmzaENI-wUQLahmFszaOKWILSSujaKwmzaH0Im1VDl7b_zTbY5LraDkttLLrFUd8Wt786KEMuphhIJUh9MBgBFmgri_MBhgmmtBRxMBXCR4kBzeLFv_itcJ2fJEkou5LgQIrcLtNIkKQP_ZvFPJLJKmS8UC-Dx4ru4FzP41aE34MaJCaKn4dG7bMsrfLWtLxDbnnNdSVz07BWF3zIPJ3DJ5bm6-9TDYgl-Cn01zA""
+    ],
+    ""Card-Correlation-Id"": [
+      ""95c28d03-47f2-4cec-8fe6-21b166c6e486""
+    ],
+    ""Content-Type"": [
+      ""application/json""
+    ],
+    ""Host"": [
+      ""x1pb9102d5.execute-api.us-east-1.amazonaws.com""
+    ],
+    ""Identity-Linking-Redirect-Url"": [
+      ""https://outlook.office.com/connectors/ig-notify-ndev@capgroup.com/eabc3324-c33c-4d0d-9a44-4bf5e5e65230/postAuthenticate""
+    ],
+    ""Message-Id"": [
+      ""AAMkAGY1OTZhMDEwLWU5MWItNDU4MC05ZGRlLTA3YWJiODgzZjUwZgBGAAAAAAB39Dn9_IIuSJ2N2J_vC1_DBwD1Uno6hUnuSa_z7GrcV6xDAAAAAAEMAAD1Uno6hUnuSa_z7GrcV6xDAADd9n_TAAA=""
+    ],
+    ""traceparent"": [
+      ""00-33fb5c0d84c3845c541f818e6580b36c-3e94586b44f3b1c3-01""
+    ],
+    ""User-Agent"": [
+      ""WAC_Outlook_React 16.2024.1213.00210""
+    ],
+    ""X-Amzn-Trace-Id"": [
+      ""Root=1-67737017-6ea4218b2a1a2aa61ef9aa19""
+    ],
+    ""X-Forwarded-For"": [
+      ""52.96.196.93""
+    ],
+    ""X-Forwarded-Port"": [
+      ""443""
+    ],
+    ""X-Forwarded-Proto"": [
+      ""https""
+    ]
+  },
+  ""queryStringParameters"": null,
+  ""multiValueQueryStringParameters"": null,
+  ""pathParameters"": null,
+  ""stageVariables"": null,
+  ""requestContext"": {
+    ""resourceId"": ""bmbtse"",
+    ""resourcePath"": ""/pets"",
+    ""operationName"": ""CreatePet"",
+    ""httpMethod"": ""POST"",
+    ""extendedRequestId"": ""Do5zxFnRIAMEuFg="",
+    ""requestTime"": ""31/Dec/2024:04:16:23 +0000"",
+    ""path"": ""/prod/pets"",
+    ""accountId"": ""961341541448"",
+    ""protocol"": ""HTTP/1.1"",
+    ""stage"": ""prod"",
+    ""domainPrefix"": ""x1pb9102d5"",
+    ""requestTimeEpoch"": 1735618583712,
+    ""requestId"": ""cc16bac2-d9cf-42e4-bb75-240f60b9f113"",
+    ""identity"": {
+      ""cognitoIdentityPoolId"": null,
+      ""accountId"": null,
+      ""cognitoIdentityId"": null,
+      ""caller"": null,
+      ""sourceIp"": ""52.96.196.93"",
+      ""principalOrgId"": null,
+      ""accessKey"": null,
+      ""cognitoAuthenticationType"": null,
+      ""cognitoAuthenticationProvider"": null,
+      ""userArn"": null,
+      ""userAgent"": ""WAC_Outlook_React 16.2024.1213.00210"",
+      ""user"": null
+    },
+    ""domainName"": ""x1pb9102d5.execute-api.us-east-1.amazonaws.com"",
+    ""deploymentId"": ""cwz11r"",
+    ""apiId"": ""x1pb9102d5""
+  },
+  ""body"": ""{ \""id\"": 111, \""type\"": \""Dog\"", \""userId\"": 1.11 }"",
+  ""isBase64Encoded"": false
+}
+"
+1735618584074,"END RequestId: 4fc1628b-ddb7-4d42-9f71-72df7d436c5d
+"
+1735618584074,"REPORT RequestId: 4fc1628b-ddb7-4d42-9f71-72df7d436c5d	Duration: 70.79 ms	Billed Duration: 71 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	Init Duration: 145.35 ms	
+XRAY TraceId: 1-67737017-6ea4218b2a1a2aa61ef9aa19	Sampled: true	
+"
